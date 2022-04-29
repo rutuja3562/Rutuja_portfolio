@@ -55,7 +55,7 @@ const About = () => {
           >
             {techStack.map((el, index) => (
               <motion.div
-                style={{ width: "360px" }}
+                style={{ width: "30%", }}
                 initial="hidden"
                 whileInView={"visible"}
                 variants={{

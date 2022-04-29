@@ -20,11 +20,17 @@ const Home = () => {
             : { backgroundColor: "#111827" }
         }
       >
-        <main
-          className="mx-auto max-w-7xl px-4 sm:px-6 md:mt-0 lg:px-8 flex flex-col md:flex-row items-center justify-center md:justify-between h-screen"
+        <main 
+          style={{
+            // border: "2px solid red",
+          }}
+          className="mx-auto max-w-7xl px-4 sm:px-6 md:mt-0 lg:px-8 flex flex-col md:flex-row items-center justify-center md:justify-between h-screen home"
           id="/"
         >
-          <div className="sm:text-center lg:text-left">
+          <div
+            className="sm:text-center lg:text-left"
+            
+          >
             <h1 className="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl">
               <motion.span
                 className={darkMode ? "block text-black" : " text-white"}
@@ -95,8 +101,8 @@ const Home = () => {
             src={heroBg}
             alt=""
             style={{
-              width: "400px",
-              heigth: "400px",
+              width: "35%",
+              heigth: "35%",
               marginTop: "10%",
               borderRadius: "50%",
             }}
