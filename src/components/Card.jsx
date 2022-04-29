@@ -19,7 +19,6 @@ const Card = () => {
           <img
             class="rounded-t-lg w-full"
             src={project1}
-            // src\assets\Zarahome.png
             alt="imgageeeee"
           />
         </a>

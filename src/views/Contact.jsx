@@ -9,7 +9,8 @@ const Contact = () => {
   const darkMode = theme.state.darkMode;
 
   return (
-    <div id="contact"
+    <div
+      id="contact"
       className={
         darkMode
           ? "bg-gray-100 pt-24 md:h-screen"
@@ -141,8 +142,10 @@ const Contact = () => {
 
               <ul className="flex">
                 {contactLinks.map((el) => (
-                  <a href={el.link}
-                    className="md:ml-6 md:mr-0 mr-6 cursor-pointer mt-4 hover:scale-125 flex flex-col justify-center items-center">
+                  <a
+                    href={el.link}
+                    className="md:ml-6 md:mr-0 mr-6 cursor-pointer mt-4 hover:scale-125 flex flex-col justify-center items-center"
+                  >
                     <img alt="" src={el.url} />
                   </a>
                 ))}
@@ -151,6 +154,7 @@ const Contact = () => {
           </div>
         </div>
       </div>
+     
       <div
         style={{ border: "3px solid #111827", marginTop: "0" }}
         className={
