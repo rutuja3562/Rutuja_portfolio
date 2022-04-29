@@ -5,7 +5,7 @@ import project1 from "../assets/Zarahome.png";
 const Card = () => {
   return (
     <motion.div
-      style={{ width: "32%", marginRight: "2%" }}
+      style={{ width: "48%", marginRight: "4%" }}
       initial={"hidden"}
       whileInView={"visible"}
       variants={{

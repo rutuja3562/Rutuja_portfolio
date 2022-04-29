@@ -6,7 +6,7 @@ import { projectCard } from "../constants";
 const Cardone = () => {
   return (
     <motion.div
-      style={{ width: "32%" }}
+      style={{ width: "48%" }}
       initial={"hidden"}
       whileInView={"visible"}
       variants={{

@@ -9,27 +9,23 @@ const Projects = () => {
 
   return (
     <div
-      id="projects" 
+      id="projects"
       className={darkMode ? "bg-white text-black" : "bg-gray-900 text-white"}
     >
       <div className="max-w-7xl mx-auto x-4 sm:px-6 lg:px-8 px-4  pt-24 pb-12">
         <h2 className="text-5xl font-bold px-4 md:px-0 text-center">
           Projects
         </h2>
-       
-        <div className="mt-8 flex items-stretch flex-wrap" 
-        // style={{border:"1px solid red" }}
+
+        <div
+          className="mt-8 flex items-stretch flex-wrap items-center"
+          style={{ width:"70%",margin:"auto" }}
         >
           <Card />
-          <Cardone/>
-          
+          <Cardone />
         </div>
-        <a
-         
-          class=" w-32 flex items-center py-4 px-4 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 mx-auto mt-4"
-        >
+        <a class=" w-32 flex items-center py-4 px-4 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 mx-auto mt-4">
           Show More
-          
         </a>
       </div>
     </div>
