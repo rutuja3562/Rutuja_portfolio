@@ -15,12 +15,8 @@ const Card = () => {
       class="max-w-xl bg-white rounded-lg border border-gray-200 shadow-lg dark:bg-gray-800 dark:border-gray-700 my-8"
     >
       <div>
-        <a href="https://zara-rutuja3562.vercel.app/">
-          <img
-            class="rounded-t-lg w-full"
-            src={project1}
-            alt="imgageeeee"
-          />
+        <a href="https://zarahomeclone1.netlify.app/index.html">
+          <img class="rounded-t-lg w-full" src={project1} alt="imgageeeee" />
         </a>
         <div class="p-5">
           <a href="helo">
@@ -52,7 +48,7 @@ const Card = () => {
           >
             <a
               target={"_blank"}
-              href="https://github.com/adarshakhatua/ZARA-HOME-CLONE"
+              href="https://zarahomeclone1.netlify.app/index.html"
               className="mr-5 cursor-pointer mt-8 hover:scale-125"
             >
               <img
@@ -61,7 +57,7 @@ const Card = () => {
               />
             </a>
             <a
-              href="https://zara-rutuja3562.vercel.app/"
+              href="https://zarahomeclone1.netlify.app/index.html"
               target="_blank"
               className="mr-5 cursor-pointer mt-8 hover:scale-125"
             >
