@@ -16,7 +16,7 @@ const Cardone = () => {
       class="max-w-xl bg-white rounded-lg border border-gray-200 shadow-lg dark:bg-gray-800 dark:border-gray-700 my-8"
     >
       <div>
-        <a href="hello">
+        <a target={"_blank"} href="https://rutuja-patil.vercel.app/">
           <img
             style={{ marginTop: "5px" }}
             class="rounded-t-lg w-full"
@@ -25,14 +25,18 @@ const Cardone = () => {
           />
         </a>
         <div class="p-5">
-          <a href="helo">
+          <a href="">
             <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
               Nordstrom Rack
             </h5>
           </a>
-          <p style={{textAlign:"justified"}} class="mb-3 font-normal text-gray-700 dark:text-gray-400 ">
-            In This Application I used HTML,CSS,JavaScript to build this application. I have cloned 
-            Nordstrome Rack website and given some of the functionality as it is present in the original website.
+          <p
+            style={{ textAlign: "justified" }}
+            class="mb-3 font-normal text-gray-700 dark:text-gray-400 "
+          >
+            In This Application I used HTML,CSS,JavaScript to build this
+            application. I have cloned Nordstrome Rack website and given some of
+            the functionality as it is present in the original website.
           </p>
           <h5 class="mb-3 font-normal text-gray-700 dark:text-gray-400">
             <span class="font-bold"> Tech Stack : </span>HTML | CSS | JavaScript
