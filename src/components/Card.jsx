@@ -48,7 +48,7 @@ const Card = () => {
           >
             <a
               target={"_blank"}
-              href="https://zarahomeclone1.netlify.app/index.html"
+              href="https://github.com/adarshakhatua/ZARA-HOME-CLONE"
               className="mr-5 cursor-pointer mt-8 hover:scale-125"
             >
               <img
