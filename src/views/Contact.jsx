@@ -141,6 +141,7 @@ const Contact = () => {
               <ul className="flex">
                 {contactLinks.map((el) => (
                   <a
+                    target={"_blank"}
                     href={el.link}
                     className="md:ml-6 md:mr-0 mr-6 cursor-pointer mt-4 hover:scale-125 flex flex-col justify-center items-center"
                   >
