@@ -111,13 +111,11 @@ const Contact = () => {
                 </div>
                 <div className="flex justify-between ">
                   <div className="underline">
-                    <a href="mailto:rspatil3562@gmail.com">
-                      Send me email directly
-                    </a>
+                    <p href="#">Send me email directly</p>
                   </div>
-                  <button className="bg-indigo-500 text-white px-4 py-2 w-40 rounded-md hover:bg-indigo-400">
-                    <a href="mailto:rspatil3562@gmail.com">Submit</a>
-                  </button>
+                  <div className="bg-indigo-500 text-white px-4 py-2 w-40 rounded-md hover:bg-indigo-400">
+                    Submit
+                  </div>
                 </div>
               </form>
             </div>
@@ -154,7 +152,7 @@ const Contact = () => {
           </div>
         </div>
       </div>
-     
+
       <div
         style={{ border: "3px solid #111827", marginTop: "0" }}
         className={
