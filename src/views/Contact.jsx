@@ -45,7 +45,9 @@ const Contact = () => {
           >
             <div className="w-full md:pr-8">
               <form
-              //  onSubmit={onSubmitHandler}
+                action="https://formspree.io/f/{form_id}"
+                method="post"
+                //  onSubmit={onSubmitHandler}
               >
                 <div class="my-6">
                   <label
@@ -114,7 +116,7 @@ const Contact = () => {
                     <p href="#">Send me email directly</p>
                   </div>
                   <div className="bg-indigo-500 text-white px-4 py-2 w-40 rounded-md hover:bg-indigo-400">
-                    Submit
+                    <a href="mailto:rspatil3562@gmail.com">Submit</a>
                   </div>
                 </div>
               </form>
