@@ -114,14 +114,12 @@ const Contact = () => {
                   <div className="underline">
                     <p>Send me email directly</p>
                   </div>
-                  <button
-                    onClick={() => {
-                      console.log("submitted");
-                    }}
+                  <div
+                   
                     className="bg-indigo-500 text-white px-4 py-2 w-40 rounded-md hover:bg-indigo-400"
                   >
                     <a href="mailto:rspahtil3562@gmail.com"> Submit</a>
-                  </button>
+                  </div>
                 </div>
               </form>
             </div>
