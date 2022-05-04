@@ -15,7 +15,7 @@ const Cardone = () => {
       }}
       class="max-w-xl bg-white rounded-lg border border-gray-200 shadow-lg dark:bg-gray-800 dark:border-gray-700 my-8"
     >
-      <div>
+      <div >
         <a target={"_blank"} href="https://rutuja-patil.vercel.app/">
           <img
             style={{ marginTop: "5px" }}

@@ -22,7 +22,6 @@ const Home = () => {
       >
         <main 
           style={{
-            // border: "2px solid red",
           }}
           className="mx-auto max-w-7xl px-4 sm:px-6 md:mt-0 lg:px-8 flex flex-col md:flex-row items-center justify-center md:justify-between h-screen home"
           id="/"

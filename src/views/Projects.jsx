@@ -2,7 +2,7 @@ import React, { useContext } from "react";
 import Card from "../components/Card";
 import Cardone from "../components/Card1";
 import { ThemeContext } from "../themeProvider";
-
+import "./card.css"
 const Projects = () => {
   const theme = useContext(ThemeContext);
   const darkMode = theme.state.darkMode;
@@ -18,13 +18,12 @@ const Projects = () => {
         </h2>
 
         <div
-          className="mt-8 flex items-stretch flex-wrap items-center"
+          className="mt-8 flex items-stretch flex-wrap items-center projectcard"
           style={{ width: "70%", margin: "auto" }}
         >
           <Card />
           <Cardone />
         </div>
-      
       </div>
     </div>
   );

@@ -1,0 +1,15 @@
+ /* @media only screen and (min-width: 0px) and (max-width: 375px) {
+        .projectcard {
+          display:flex;
+          flex-direction: column;
+          background:pink;
+          align-items: center;
+            justify-content: center;
+        }
+        .cardone{
+          width:60%
+        }
+      }
+      @media only screen and (min-width: 376px) and (max-width: 775px) {
+        
+      } */

@@ -7,6 +7,7 @@ import Services from "./views/Services";
 import Projects from "./views/Projects";
 import LoadingScreen from "./components/LoadingScreen";
 import { ThemeProvider } from "./themeProvider";
+import Skill from "./views/Skill";
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -22,6 +23,8 @@ function App() {
             <Navbar />
             <Home />
             <About />
+            <Skill/>
+    
             <Projects />
             <Contact />
           </div>
